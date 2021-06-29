@@ -53,6 +53,15 @@ capabilities, and set the stage for understanding how TVM works.
 # ``$PYTHONPATH``,you can access the command line driver functionality
 # via the executable python module, ``python -m tvm.driver.tvmc``.
 #
+
+
+################################################################################
+# .. note:: Supported operating systems
+#
+#   TVMC is only supported on Linux. Currently the default threading model
+#   for Python on macOS does not support the model used by TVMC.
+
+
 # For simplicity, this tutorial will mention TVMC command line using
 # ``tvmc <options>``, but the same results can be obtained with
 # ``python -m tvm.driver.tvmc <options>``.
